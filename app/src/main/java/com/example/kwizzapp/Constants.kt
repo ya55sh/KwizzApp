@@ -37,6 +37,17 @@ object Constants {
             3
         )
         questionList.add(ques3);
+
+        val ques4 = Question(
+            4, "What is the speed of light?",
+            3,
+            "1 * 10^6",
+            "1 * 10^5",
+            "1 * 10^8",
+            "1 * 10^9",
+            4
+        )
+        questionList.add(ques4);
         return questionList
     }
 
