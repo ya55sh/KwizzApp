@@ -2,6 +2,10 @@ package com.example.kwizzapp
 
 object Constants {
 
+    var USER_NAME: String = "user_name"
+    var TOTAL_QUESTIONS: String = "total_questions"
+    var CORRECT_ANSWERS: String = "correct_answers"
+
     fun getQuestions(): ArrayList<Question>{
         val questionList = ArrayList<Question>()
 

@@ -13,6 +13,13 @@
         android:theme="@style/Theme.KwizzApp"
         tools:targetApi="31">
         <activity
+            android:name=".ExitActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".quizQuestionActivity"
             android:exported="false">
             <meta-data
